@@ -1,0 +1,58 @@
+.section{
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	width: 100%;
+	
+}
+.container{
+	width:100%;
+	
+}
+#nav-list a:hover{
+	background:#E7E7E7;;
+}
+
+h1{
+	margin-left:20px;
+}
+h2{
+	margin-top:auto;
+	margin-bottom: 20px;
+}
+p{
+	padding: 20px;
+	padding-top: 0;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+	#collapsable-nav{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		padding-left:0;
+		padding-right: 0;
+
+	}
+	.contai
+	.navbar-nav{
+		margin:0;
+	}
+	
+	#nav-list a{
+	text-align: center;
+	
+	}
+
+	.chicken{
+		border-bottom: 1px solid black;
+	}
+	
+	.sushi{
+		border-top: 1px solid black;
+	}
+	.col-xs-12{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+}
